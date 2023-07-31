@@ -1,0 +1,47 @@
+{
+  "name": "soccer-tournament-management",
+  "version": "1.0.0",
+  "description": "A Web App to Manage a Soccer Tournament",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartavya-asu/SER-515-Group-23.git"
+  },
+  "author": "Kartavya, Bhavana, Purna, Hameeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartavya-asu/SER-515-Group-23/issues"
+  },
+  "homepage": "https://github.com/kartavya-asu/SER-515-Group-23#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.11.0",
+    "express": "^4.17.1",
+    "i": "^0.3.7",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "npm": "^8.1.4",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "react-faq-component": "^1.3.1",
+    "react-google-maps": "^7.3.0",
+    "react-icons": "^4.3.1",
+    "to": "^0.2.9",
+    "update": "^0.4.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
